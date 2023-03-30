@@ -1,6 +1,21 @@
 body{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    border-width: 20%;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    padding-left: 10px;
+    padding-right: 10px;  
 }
