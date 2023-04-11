@@ -17,11 +17,6 @@ p{
     text-align: justify;
 }
 
-h2{
-    padding-left: 10px;
-    padding-right: 10px;  
-}
-
  ul{
     list-style-type: square;
   }
@@ -80,12 +75,12 @@ h2{
     background-color: #333;
   }
   
-  li {
+  .navbar li {
     float: left;
     font-size: 20px;
   }
   
-  li a {
+  .navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -94,11 +89,20 @@ h2{
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+  .navbar li a:hover {
     background-color: #111;
   }
 /*-----------------Navbar Ends--------------------*/
 
-  img{
-    padding: 10px;
+  .landing-page_pic img{
+    padding-left: 10px;
+  }
+
+  .resume{
+    background-color: lightgray;
+    padding-left: 120px;
+  }
+
+  #name{
+    padding-left: 130px;
   }
